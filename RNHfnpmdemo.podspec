@@ -1,0 +1,24 @@
+
+Pod::Spec.new do |s|
+  s.name         = "RNHfnpmdemo"
+  s.version      = "1.0.0"
+  s.summary      = "RNHfnpmdemo"
+  s.description  = <<-DESC
+                  RNHfnpmdemo
+                   DESC
+  s.homepage     = "https://github.com/author/RNHfnpmdemo.git"
+  s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.author             = { "author" => "author@domain.cn" }
+  s.platform     = :ios, "7.0"
+  s.source       = { :git => "https://github.com/author/RNHfnpmdemo.git", :tag => "master" }
+  s.source_files  = "RNHfnpmdemo/**/*.{h,m}"
+  s.requires_arc = true
+
+
+  s.dependency "React"
+  #s.dependency "others"
+
+end
+
+  
